@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron", sans-serif;
+}
+.container {
+  width: 100%;
+  margin: 2em auto;
+  padding: 10px;
+}
+.navbar-container {
+  width: 100%;
+  float: left;
+}
+img[alt="brand-logo"] {
+  float: left;
+  width: 60px;
+}
+
+.list {
+  margin: 0 10em;
+  float: left;
+  padding: 0;
+  list-style: none;
+  display: inline;
+}
+
+.list-item {
+  margin-left: 2em;
+  list-style: none;
+  display: inline;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.button-group {
+  margin-left: 20em;
+}
+
+.search-icon {
+  float: left;
+  width: 20px;
+  padding-top: 0.6em;
+  margin-left: 8em;
+}
+.search-icon svg {
+  width: 100%;
+}
+
+nav .list,
+nav .brand {
+  margin-top: 0.5em;
+}
+
+nav .brand {
+  margin-left: 3em;
+  margin-right: 5em;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 0.4em 2.8em;
+  border-radius: 8px;
+  margin-top: 0.5em;
+  margin-left: 1em;
+  font-family: Poppins;
+}
+
+/* Hero Section */
+
+img[alt="square-pattern"] {
+  position: absolute;
+  bottom: -30px;
+  width: 280px;
+  left: 192px;
+}
+
+img[alt="person-hero-image"] {
+  position: absolute;
+  z-index: 100;
+  bottom: -10px;
+  width: 350px;
+  left: 30px;
+}
+img[alt="globe-pattern"] {
+  position: absolute;
+  right: 695px;
+  top: 110px;
+  width: 60px;
+}
+img[alt="star-pattern"] {
+  position: relative;
+  left: 1080px;
+  top: 20px;
+  width: 40px;
+}
+
+.hero-container-right {
+  float: right;
+  width: 50%;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  right: 30px;
+}
+
+.hero-heading {
+  font-size: 2.8rem;
+}
+.hero-description {
+  font-size: 0.8rem;
+  padding: 2em 10em;
+}
+.button-email {
+  background-color: transparent;
+  padding: 0.4em 2em;
+  border-radius: 6px;
+}
+.button-join {
+  background-color: #000;
+  color: #fff;
+  border-radius: 6px;
+  padding: 0.4em 1em;
+  margin-top: 2em;
+  /* margin-bottom: 4em; */
+}
+
+.contact-heading {
+  margin-top: 6em;
+  margin-bottom: 0.6em;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+img[alt="star-pattern-bottom"] {
+  position: absolute;
+  left: 60px;
+  bottom: 40px;
+  width: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .hero-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .list {
+    display: none;
+  }
+  .square {
+    top: 20%;
+    left: 50%;
+  }
+  .hero-container-right {
+    margin: 0 auto;
+  }
+
+  .person-hero-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .person-hero-image > img {
+    width: 60%;
+    min-width: 300px;
+  }
+  .star-2 {
+    position: absolute;
+    left: 10%;
+    bottom: 20px;
+  }
+}
