@@ -15,15 +15,13 @@
 }
 img[alt="brand-logo"] {
   float: left;
-  width: 60px;
+  width: 5em;
 }
 
 .list {
-  margin: 0 10em;
   float: left;
+  margin: 0 8em;
   padding: 0;
-  list-style: none;
-  display: inline;
 }
 
 .list-item {
@@ -34,14 +32,10 @@ img[alt="brand-logo"] {
   font-weight: bold;
 }
 
-.button-group {
-  margin-left: 20em;
-}
-
 .search-icon {
   float: left;
-  width: 20px;
-  padding-top: 0.6em;
+  width: 1.5em;
+  padding-top: 0.4em;
   margin-left: 8em;
 }
 .search-icon svg {
@@ -49,68 +43,66 @@ img[alt="brand-logo"] {
 }
 
 nav .list,
-nav .brand {
-  margin-top: 0.5em;
+nav .image-logo {
+  margin-top: 0.3em;
 }
 
-nav .brand {
+nav .image-logo {
   margin-left: 3em;
   margin-right: 5em;
 }
 
 .nav-button {
+  font-family: Poppins;
   background-color: transparent;
   border: 1px solid black;
   padding: 0.4em 2.8em;
   border-radius: 8px;
   margin-top: 0.5em;
   margin-left: 1em;
-  font-family: Poppins;
 }
-
-/* Hero Section */
 
 img[alt="square-pattern"] {
   position: absolute;
-  bottom: -30px;
-  width: 280px;
-  left: 192px;
+  top: 27em;
+  width: 16em;
+  left: 12em;
 }
 
 img[alt="person-hero-image"] {
   position: absolute;
-  z-index: 100;
+  z-index: 1;
   bottom: -10px;
-  width: 350px;
-  left: 30px;
+  width: 22em;
+  left: 2em;
 }
 img[alt="globe-pattern"] {
   position: absolute;
-  right: 695px;
-  top: 110px;
-  width: 60px;
+  right: 44em;
+  top: 7em;
+  width: 4em;
 }
 img[alt="star-pattern"] {
   position: relative;
-  left: 1080px;
-  top: 20px;
-  width: 40px;
+  left: 65em;
+  top: 1.2em;
+  width: 3em;
 }
 
 .hero-container-right {
   float: right;
   width: 50%;
   position: relative;
-  top: 100px;
+  top: 6.2em;
   text-align: center;
-  right: 30px;
+  right: 2em;
 }
 
 .hero-heading {
-  font-size: 2.8rem;
+  font-size: 2.8em;
 }
 .hero-description {
-  font-size: 0.8rem;
+  font-size: 0.8em;
   padding: 2em 10em;
 }
 .button-email {
@@ -124,51 +116,20 @@ img[alt="star-pattern"] {
   border-radius: 6px;
   padding: 0.4em 1em;
   margin-top: 2em;
-  /* margin-bottom: 4em; */
+  
 }
 
 .contact-heading {
   margin-top: 6em;
   margin-bottom: 0.6em;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   font-weight: normal;
 }
 
 img[alt="star-pattern-bottom"] {
   position: absolute;
-  left: 60px;
-  bottom: 40px;
-  width: 30px;
+  left: 4em;
+  bottom: 2.5em;
+  width: 2em;
 }
 
-@media screen and (max-width: 800px) {
-  .hero-container {
-    align-items: center;
-    flex-direction: column;
-  }
-  .list {
-    display: none;
-  }
-  .square {
-    top: 20%;
-    left: 50%;
-  }
-  .hero-container-right {
-    margin: 0 auto;
-  }
-
-  .person-hero-image {
-    display: flex;
-    justify-content: center;
-  }
-
-  .person-hero-image > img {
-    width: 60%;
-    min-width: 300px;
-  }
-  .star-2 {
-    position: absolute;
-    left: 10%;
-    bottom: 20px;
-  }
-}
